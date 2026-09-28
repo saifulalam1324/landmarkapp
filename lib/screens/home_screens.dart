@@ -66,3 +66,52 @@ class _HomeScreenState extends State<HomeScreen> {
       });
     }
   }
+  @override
+    Widget build(BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text("Landmark Recognition"),
+          centerTitle: true,
+          backgroundColor: CupertinoColors.lightBackgroundGray,
+        ),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                if (selectedImage != null)
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(12),
+                    child: Image.file(
+                      selectedImage!,
+                      width: 300,
+                      height: 250,
+                      fit: BoxFit.cover,
+                    ),
+                  )
+                else
+                  Container(
+                    width: 300,
+                    height: 250,
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.grey),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: const Center(
+                      child: Text("No image selected"),
+                    ),
+                  ),
+                const SizedBox(height: 25),
+                ElevatedButton.icon(
+                  onPressed: pickImage,
+                  icon: const Icon(Icons.add_a_photo),
+                  label: const Text("Select Image"),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+  }
