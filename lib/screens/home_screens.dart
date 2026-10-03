@@ -185,13 +185,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   onPressed: isLoading ? null : predictLandmark,
                   icon: isLoading
                       ? const SizedBox(
-                          width: 20,
-                          height: 20,
-                          child: CircularProgressIndicator(
-                            strokeWidth: 2,
-                            color: Colors.white,
-                          ),
-                        )
+                    width: 20,
+                    height: 20,
+                    child: CircularProgressIndicator(
+                      strokeWidth: 2,
+                      color: Colors.white,
+                    ),
+                  )
                       : const Icon(Icons.search),
                   label: Text(
                     isLoading ? "Predicting..." : "Recognize Landmark",
