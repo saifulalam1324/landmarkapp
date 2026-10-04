@@ -61,5 +61,5 @@ The mobile team consisted of three members with separate responsibilities.
 ## 📸 Application Screenshot
 
 <p align="center">
-  <img src="screenshot/ss-1.jpeg" alt="Landmark Recognition App" width="300">
+  <img src="Screenshot/ss-1.jpeg" alt="Landmark Recognition App" width="300">
 </p>
