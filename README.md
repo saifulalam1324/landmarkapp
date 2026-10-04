@@ -46,16 +46,16 @@ This project was completed through collaboration between two teams.
 * Developed and evaluated the landmark recognition model.
 * Provided the trained model to the Mobile App Development Team for integration.
 
-### 2. Mobile App Development Team
+2. Mobile App Development Team
 
-**Primary responsibility: Flutter Application Development and Model Integration**
+Primary responsibility: Flutter Application Development and Model Integration
 
 The mobile team consisted of three members with separate responsibilities.
-UI Developer 1: Developed the mobile application's user interface and screen layouts.                                                         
 
-UI Developer 2: Worked on UI components, image selection screens and improving the user experience.                                          
-
-API Integration Developer: Integrated the prediction API with Flutter, handled image uploads and API responses and connected the mobile application to the trained model.
+Team Member Role	Responsibilities
+UI Developer 1	Developed the mobile application's user interface and screen layouts.
+UI Developer 2	Worked on UI components, image selection screens and improving the user experience.
+API Integration Developer	Integrated the prediction API with Flutter, handled image uploads and API responses, and connected the mobile application to the trained model.
 
 
 
