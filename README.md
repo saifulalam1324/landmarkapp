@@ -58,3 +58,4 @@ The mobile team consisted of three members with separate responsibilities.
 | UI Developer 2 | Developed UI components, implemented image selection screens and improved the overall user experience. |
 | API Integration Developer | Integrated the prediction API with Flutter, implemented image uploads, handled API responses and connected the mobile application to the trained landmark recognition model. |
 
+![Landmark Recognition App](screenshot/ss-1.jpeg)
