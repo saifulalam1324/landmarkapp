@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
         return SafeArea(
           child: Wrap(
             children: [
-              // CAMERA
+
               ListTile(
                 leading: const Icon(Icons.camera_alt),
                 title: const Text("Take Photo"),
@@ -93,7 +93,6 @@ class _HomeScreenState extends State<HomeScreen> {
       return;
     }
 
-    // Start loading
     setState(() {
       isLoading = true;
       prediction = null;
@@ -219,7 +218,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: Column(
                     children: [
-                      // LOCATION ICON
+
                       const Icon(
                         Icons.location_on,
                         size: 40,
@@ -228,7 +227,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       const SizedBox(height: 10),
 
-                      // TITLE
+
                       const Text(
                         "Predicted Landmark",
                         style: TextStyle(
@@ -239,7 +238,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       const SizedBox(height: 8),
 
-                      // PREDICTION
+
                       Text(
                         prediction!,
                         textAlign: TextAlign.center,
