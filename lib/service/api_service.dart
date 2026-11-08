@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class ApiService {
 
 
-  static const String baseUrl = "http://10.0.2.2:5000";
+  static const String baseUrl = "https://landmark-api-4.onrender.com/";
 
   static Future<Map<String, dynamic>> predictLandmark(
       File image) async {
